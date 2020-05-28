@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000;
 app.use('/api/products', require('./routes/products'));
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('Hello World - Simple Product API');
 });
 
 app.listen(port, () => {
